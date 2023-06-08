@@ -6,22 +6,39 @@
 
 header {
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #af4b08;
+    color: #f1eeec;
 }
 
-header h1
-section h2 {
+header h1,
+section h2,
+section h3 {
     font-weight: normal;
     }
 
 header,
-section h2{
+section h2,
+section h3{
     font-family: 'Bungee', cursive;
+}
+
+h3{
+    color: #361c04;
+}
+
+p {
+    color: #361c04;
+}
+
+
+input,
+textarea{
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #af8c6ed0;
 }
 
 header nav li {
@@ -50,10 +67,17 @@ section .container {
 }
 
 .brands-lists img {
-    height: 24px;
+    height: 100px;
 }
 
-.brands-lists li {
+.social-links img,
+.social-links a{
+    text-decoration: none;
+    height: 40px;
+}
+
+.brands-lists li,
+.social-links li {
     display: inline;
     margin-right: 8px;
 }
@@ -64,18 +88,76 @@ section .container{
 
 section {
     padding: 24px 0;
-    color: #182C61;
+    color: #361c04;
 }
 
 section h2 {
     margin-bottom: 16px;
-    color: #182C61;
+    color: #af4b08;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.capy-tips {
     margin-right: 16px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+}
+
+.redes,
+.endereco{
+    margin-top: 77px;
+}
+
+#contact .container {
+    font-display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #af4b08;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #a05d30;
+}
+
+input:focus, textarea {
+    outline-color: #af4b08 ;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: bold;
+}
+
+footer{
+    background-color: #af4b08;
+    padding: 16px;
+}
+
+footer p {
+    color: #ecf0f1;
 }
