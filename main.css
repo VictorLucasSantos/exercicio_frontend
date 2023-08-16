@@ -4,160 +4,25 @@
     padding: 0;
 }
 
-header {
-    padding: 16px 0;
-    background-color: #af4b08;
-    color: #f1eeec;
-}
-
-header h1,
-section h2,
-section h3 {
-    font-weight: normal;
-    }
-
-header,
-section h2,
-section h3{
-    font-family: 'Bungee', cursive;
-}
-
-h3{
-    color: #361c04;
-}
-
-p {
-    color: #361c04;
-}
-
-
-input,
-textarea{
-    font-family: 'Roboto', sans-serif;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #af8c6ed0;
-}
-
-header nav li {
-    margin-left: 16px;
-    display: inline;
-    color: #ecf0f1;
-}
-
-header nav li a {
-    color: #ecf0f1;
-    text-decoration: none;
-    font-size: 18;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .container,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.brands-lists img {
-    height: 100px;
-}
-
-.social-links img,
-.social-links a{
-    text-decoration: none;
-    height: 40px;
-}
-
-.brands-lists li,
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
 section .container{
-    align-items: flex-start;
-}
-
-section {
-    padding: 24px 0;
-    color: #361c04;
-}
-
-section h2 {
-    margin-bottom: 16px;
-    color: #af4b08;
-}
-
-section p {
-    margin-bottom: 8px;
-}
-
-.capy-tips {
-    margin-right: 16px;
-}
-
-.contact-methods {
     display: flex;
-    justify-content: space-between;
-    margin-right: 16px;
+    ;
 }
 
-.redes,
-.endereco{
-    margin-top: 77px;
+.container{
+    margin: auto;
 }
 
-#contact .container {
-    font-display: flex;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
+.container input,
+button{
     margin-bottom: 8px;
-    padding: 8px;
+    display: block;
+    width: 250px;
+    height: 50px;
 }
 
-form button {
-    background-color: #af4b08;
-    color: #ecf0f1;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover{
-    background-color: #a05d30;
-}
-
-input:focus, textarea {
-    outline-color: #af4b08 ;
-}
-
-form textarea {
-    resize: none;
-    height: 180px;
-}
-
-section h3 {
-    margin-bottom: 16px;
-    font-size: bold;
-}
-
-footer{
-    background-color: #af4b08;
-    padding: 16px;
-}
-
-footer p {
-    color: #ecf0f1;
+button,
+h1{
+    color: azure;
+    background-color: blueviolet;
 }
